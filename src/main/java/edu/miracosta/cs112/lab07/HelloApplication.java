@@ -22,6 +22,7 @@ public class HelloApplication extends Application  { //inheriting core functiona
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Hello GUI: Prof Horton");
 
+
         StackPane layout = new StackPane();
 
         Scene scene = new Scene(layout, 400,400);
