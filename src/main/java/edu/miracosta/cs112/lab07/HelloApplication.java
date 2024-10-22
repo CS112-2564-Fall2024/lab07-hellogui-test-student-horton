@@ -14,6 +14,8 @@ public class HelloApplication extends Application  { //inheriting core functiona
     /*** GUI COMPONENTS ***/
     // TODO: follow step 25 in README.md to create reference variables
 
+
+
     /*** DRIVER main ***/
     public static void main(String[] args) {
         launch(args); //method from Application class, must be called to setup javafx application
