@@ -25,6 +25,9 @@ public class HelloApplication extends Application  { //inheriting core functiona
         Scene scene = new Scene(layout, 400, 400);
         primaryStage.setScene(scene);
         primaryStage.show();
+
+        Label label = new Label("Hello World!");
+        layout.getChildren().add(label);
     }
 
     // TODO: follow steps 2-9 in README.md to create a start method
