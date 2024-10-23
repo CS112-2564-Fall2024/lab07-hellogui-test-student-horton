@@ -1,14 +1,14 @@
 package edu.miracosta.cs112.lab07;//package name here depending on your IDE
 
 import javafx.application.Application;  //abstract class used for JavaFX GUI's
-import javafx.scene.layout.StackPane;
-import javafx.stage.Stage;              //class for GUI window
+import javafx.scene.layout.StackPane; //class for GUI window
 import javafx.scene.Scene;              //class for specific view in GUI window
 import javafx.scene.layout.VBox;        //class for layout pane, organized top-to-bottom
 import javafx.scene.control.Label;      //class for label component
 import javafx.scene.control.Button;     //class for button component
 import javafx.event.EventHandler;       //interface for handling events
 import javafx.event.ActionEvent;        //class for type of event for action (like button or key pressed)
+import javafx.stage.Stage;
 
 public class HelloApplication extends Application  { //inheriting core functionality + this class will handle events
     /*** GUI COMPONENTS ***/
@@ -21,10 +21,8 @@ public class HelloApplication extends Application  { //inheriting core functiona
 
     public void start(Stage primaryStage) {
         primaryStage.setTitle("Hello GUI: Prof Horton");
-
         StackPane layout = new StackPane();
-
-        Scene scene = new Scene(layout, 400,400);
+        Scene scene = new Scene(layout, 400, 400);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
